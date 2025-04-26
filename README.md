@@ -5,6 +5,7 @@ Required dependencies:
 GTK 3.0
 g++
 glibc
+pkg-config
 ```
 
 # Compilation
