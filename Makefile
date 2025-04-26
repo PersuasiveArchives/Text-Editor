@@ -19,7 +19,7 @@ TARGET = text_editor
 
 all: $(TARGET)
 
-+
+
 $(TARGET): $(SOURCES)
 	$(CXX) $(CXXFLAGS) $(SOURCES) -o $(TARGET) $(GTK_CFLAGS) $(GTK_LIBS)
 
